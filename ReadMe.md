@@ -28,14 +28,13 @@ Durante le vacanze ho fatto mille mila foto, ora come faccio a scegliere quella 
 
 ### Algoritmo
 
-    - FINCHE' ( Foto ok )
+    - FINCHE' ( Foto ok ) Loop 1
         - Apri foto
-        - FINCHE' (filtro ok)
+        - FINCHE' (filtro ok) Loop 2
             - Aggiungi Nuovo filtro
             - SE (Filtro = ok)
-                - Aggiungi foto a preferiti | Esce dal loop
+                - Aggiungi foto a preferiti | Esce dal loop 2
             ALTRIMENTI
                 - Cambia Filtro
         - SE (Foto ok)
-            - Pubblica su INSTAGRAM | Esce dal loop
-
+            - Pubblica su INSTAGRAM | Esce dal loop 1
